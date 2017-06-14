@@ -1,0 +1,31 @@
+# jekyll project building digital collections portal
+
+# site settings
+title: Digital Initiatives
+email: dbecker@uidaho.edu
+description: University of Idaho Library Digital Initiatives
+
+# site urls
+baseurl: /digital
+siteurl: http://www.lib.uidaho.edu
+digurl: http://digital.lib.uidaho.edu/
+
+# collections
+
+page_gen:
+  - data: collections
+    template: home
+    name: collection
+    dir: collection
+    extension: html
+  - data: collections
+    template: map
+    name: map
+    dir: collection
+    extension: html
+  - data: collections
+    template: tags
+    name: tag
+    dir: collection
+    extension: html
+ 
